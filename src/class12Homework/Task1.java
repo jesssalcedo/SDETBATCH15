@@ -16,7 +16,7 @@ public class Task1 {
 
             int length =str.length();
             if(length%2!=0 && length>=3){
-                int middle=length/2;
+                int middle=str.length()/2;
                 System.out.println(str.charAt(middle));
             }
 

@@ -10,20 +10,33 @@ public class Task4 {
     public static void main(String[] args) {
 
 
-        int[][] num = {{1, 2, 3, 4},
-                {11, 12, 13, 14},
-                {12, 22, 23, 24},
-                {100, 200, 300, 401}};
+        int[][] numbers = {{1, 2, 3, 4},
+                {11, 12, 13, 14}};
 
-        for (int i = 0; i < num.length; i++) {
-            for (int j = 0; j < num[i].length ; j++) {
-                if (num[i].length%2==0){
 
+        int even= 0;
+        int odd= 0;
+
+        for(int i=0; i<numbers.length; i++) {  // numbers.length tells us how many total rows are present in 2D Array
+            for (int j = 0; j < numbers[i].length; j++) {   // numbers[i].length will give the size of each 1D Array
+                if (numbers[i][j] % 2 == 0) {
+                    even = numbers[i][j];
+                    System.out.println("Even Numbers: " + even);
                 }
-
             }
 
         }
+        for (int i = 0; i < numbers.length; i++) {
+            for (int j = 0; j < numbers[i].length; j++) {
+                if (numbers[i][j] % 2 != 0) {
+                    odd= numbers[i][j];
+                    System.out.println("Odd Number: " + numbers[i][j]);
+                }
+            }
+        }
+
+
+
 
 
     }
