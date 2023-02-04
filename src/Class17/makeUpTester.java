@@ -7,5 +7,8 @@ public class makeUpTester {
         makeUp product1=new makeUp("Estee Lauder","Foundation","beige",39.99);
         product1.PrintInfo();
 
+        makeUp product2=new makeUp();
+        product2.PrintInfo();
+
     }
 }

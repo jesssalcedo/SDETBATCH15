@@ -17,14 +17,14 @@ public class makeUp {
         color=strColor;
         price=strPrice;
 
-
-
-
     }
 
     void PrintInfo(){
         System.out.println(brandFoundation+" "+typeOfMakeUp+" "+color+" "+price);
     }
 
+    makeUp(){
+
+    }
 
 }
