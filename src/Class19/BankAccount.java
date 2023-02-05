@@ -25,7 +25,7 @@ class Checking extends BankAccount { // Checking class is child class or sub cla
         double profit;
 
         void takeProfit() {
-            System.out.println("Profit methid from saving class");
+            System.out.println("Profit method from saving class");
 
         }
     }
