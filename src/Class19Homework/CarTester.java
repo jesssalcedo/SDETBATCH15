@@ -8,7 +8,7 @@ public class CarTester {
         car1.color="Black";
         car1.model="G wagon";
         car1.year=2021;
-        car1.printInfo();
+
 
         System.out.println("---------");
 

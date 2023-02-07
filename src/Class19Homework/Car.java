@@ -6,9 +6,7 @@ public class Car {
     int year;
     String model;
 
-    void printInfo() {
-        System.out.println("The color of the car is " + color + " The year of the car is " + year + " The model of the car is " + model);
-    }
+
 
 }
     class Truck extends Car {
